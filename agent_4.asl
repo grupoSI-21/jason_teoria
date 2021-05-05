@@ -2,7 +2,7 @@
 
 
 /* Initial beliefs and rules */
-actual(4).
+me(_).
 
 contenido(4, " CONCLUSION Y BIBLIOGRAFIA.").
 

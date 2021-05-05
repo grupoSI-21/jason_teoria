@@ -1,7 +1,7 @@
 // Agent agent_3 in project CBR.mas2j
 
 /* Initial beliefs and rules */
-actual(3).
+me(_).
 
 contenido(3, " SEGUNDA PARTE Y COMPLETACION,").
 

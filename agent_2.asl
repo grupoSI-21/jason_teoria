@@ -2,8 +2,7 @@
 
 
 /* Initial beliefs and rules */
-
-actual(2).
+me(_).
 
 contenido(2, " INDICE Y PRIMERA PARTE,").
 

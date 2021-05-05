@@ -2,7 +2,7 @@
 
 
 /* Initial beliefs and rules */
-actual(1).
+me(_).
 
 contenido(1, " PORTADA E INTRO,").
 
