@@ -1,0 +1,36 @@
+/*
+    cbr (Case Based Reasoning)
+    ---------------------------
+
+    Jason Project File
+
+    This file defines the initial state of the MAS
+
+    Jason 2.5.1
+    May 04, 2021 - 01:49:06
+*/
+
+MAS cbr {
+
+    infrastructure: Centralised
+
+    agents: 
+       //This routes might change for /home/user/cbr_jason/agent_X.asl before uploading to github
+        agent_1 /home/user/cbr_jason/agent_1.asl [beliefs="me(1)"];
+
+        agent_2 /home/user/cbr_jason/agent_2.asl [beliefs="me(2)"];
+
+        agent_3 /home/user/cbr_jason/agent_3.asl [beliefs="me(3)"];
+
+        agent_4 /home/user/cbr_jason/agent_4.asl [beliefs="me(4)"];
+
+        printer /home/user/cbr_jason/printer.asl;
+		
+		/*
+		La idea es que no importa el orden (siendo este establecido arriba en las beliefs asociadas):
+			el 1 haga la PORTADA e INTRODUCCION
+			el 2 haga el INDICE y la PRIMERA PARTE
+			el 3 haga la SEGUNDA PARTE y que termine de COMPLETAR
+			el 4 haga la CONCLUSION y BIBLIOGRAFIA		
+		*/
+}
