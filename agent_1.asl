@@ -2,7 +2,7 @@
 
 /* Initial beliefs and rules */
 
-titulo("PORTADA E INTRO,").
+titulo("PORTADA E INTRO").
 
 /* Initial goals */
 

@@ -1,10 +1,10 @@
 // Agent printer in project CBR.mas2j
 
 /* Initial beliefs and rules */
-orden(1, "PORTADA E INTRO,").
-orden(2, "INDICE Y PRIMERA PARTE,").
-orden(3, "SEGUNDA PARTE Y COMPLETACION,").
-orden(4, "CONCLUSION Y BIBLIOGRAFIA.").
+orden(1, "PORTADA E INTRO").
+orden(2, "INDICE Y PRIMERA PARTE").
+orden(3, "SEGUNDA PARTE Y COMPLETACION").
+orden(4, "CONCLUSION Y BIBLIOGRAFIA").
 
 /* Initial goals */
 

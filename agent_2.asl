@@ -2,7 +2,7 @@
 
 /* Initial beliefs and rules */
 
-titulo("INDICE Y PRIMERA PARTE,").
+titulo("INDICE Y PRIMERA PARTE").
 
 /* Initial goals */
 

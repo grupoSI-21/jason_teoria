@@ -2,7 +2,7 @@
 
 /* Initial beliefs and rules */
 
-titulo("SEGUNDA PARTE Y COMPLETACION,").
+titulo("SEGUNDA PARTE Y COMPLETACION").
 
 /* Initial goals */
 

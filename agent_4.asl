@@ -2,7 +2,7 @@
 
 /* Initial beliefs and rules */
 
-titulo("CONCLUSION Y BIBLIOGRAFIA.").
+titulo("CONCLUSION Y BIBLIOGRAFIA").
 
 /* Initial goals */
 
