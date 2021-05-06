@@ -1,18 +1,19 @@
 // Agent agent_4 in project CBR.mas2j
 
-
 /* Initial beliefs and rules */
-me(_).
 
-contenido(4, " CONCLUSION Y BIBLIOGRAFIA.").
+titulo("CONCLUSION Y BIBLIOGRAFIA.").
 
 /* Initial goals */
 
-!share_work.
+!do_work.
 
 /* Plans */
 
-+!share_work : me(Ord) & contenido(Ord, C) 
-			  <- .send(printer, tell, contenido(Ord, C)).
-
--!share_work.
++!do_work : titulo(T) <- .wait(math.random(300)+300);
+						 +contenido("Con este trabajo concluimos que las ranas son unos animales realmente interesantes y muy saltarines.");
+						 .println("He terminado mi parte: ", T); 
+						 !share_work.
+							
++!share_work : titulo(T) & contenido(C)
+			  <- .send(printer, tell, parte(T, C)).

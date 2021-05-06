@@ -16,13 +16,13 @@ MAS cbr {
 
     agents: 
        //This routes might change for /home/user/cbr_jason/agent_X.asl before uploading to github
-        agent_1 /home/user/cbr_jason/agent_1.asl [beliefs="me(1)"];
+        agent_1 /home/user/cbr_jason/agent_1.asl;
 
-        agent_2 /home/user/cbr_jason/agent_2.asl [beliefs="me(2)"];
+        agent_2 /home/user/cbr_jason/agent_2.asl;
 
-        agent_3 /home/user/cbr_jason/agent_3.asl [beliefs="me(3)"];
+        agent_3 /home/user/cbr_jason/agent_3.asl;
 
-        agent_4 /home/user/cbr_jason/agent_4.asl [beliefs="me(4)"];
+        agent_4 /home/user/cbr_jason/agent_4.asl;
 
         printer /home/user/cbr_jason/printer.asl;
 		
