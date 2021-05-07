@@ -11,7 +11,7 @@ titulo("INDICE Y PRIMERA PARTE").
 /* Plans */
 
 +!do_work : titulo(T) <- .wait(math.random(1000)+500);
-						 +contenido("*** indice ***\nLas especies de este género se caracterizan por sus cinturas delgadas y la piel rugosa, muchas poseen finas estrías que recorren la espalda aunque sin las verrugas típicas de los sapos.  Son excelentes saltadoras debido a sus largas y delgadas patas traseras.");						
+						 +contenido("*** indice ***\nLas especies de este género se caracterizan por sus cinturas delgadas y la piel rugosa, muchas poseen finas\n estrías que recorren la espalda aunque sin las verrugas típicas de los sapos.  Son excelentes saltadoras\n debido a sus largas y delgadas patas traseras.");						
 						 .println("He terminado mi parte: ", T); 
 						 !share_work.
 							
